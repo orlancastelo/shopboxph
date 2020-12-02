@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopbox PH</title>
+
+    <!-- BOOTSTRAP CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- FONTAWESOME KIT -->
+    <script src="https://kit.fontawesome.com/a7dd376caa.js" crossorigin="anonymous"></script>
+
+    <!-- SLICK SLIDER CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="color-forth-bg">
+    
+    <!-- NAB-VAR START -->
+    <nav class="navbar navbar-expand-lg navbar-dark color-primary-bg font-lato fixed-top">
+        <a class="navbar-brand" href="#"><i class="fas fa-box"></i> Shopbox PH</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-gift"></i> New Arrival</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="sale.html"><i class="fas fa-piggy-bank"></i> Sale</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="index.html"><i class="fas fa-clipboard-list"></i> Products</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-users"></i> About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-address-book"></i> Contact Us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="user-index.html"><img src="./assets/user-images/user.png" class="img-fluid" alt="User Photo"></a>
+            </li>
+          </ul>
+        </div>   
+    </nav>
+    <!-- NAV-BAR END -->
+
+    <main class="product py-5">
+
+      <!-- CART START -->
+      <section class="cart py-5">
+        <div class="container color-third-bg">
+          <div class="row py-3 pl-4 font-lato text-dark">
+            <!--Grid column-->
+            <div class="col-xl-4 col-lg-4 col-md-12 col-12 pb-3">
+                <input class="form-check-input" type="checkbox" value="">
+              <div class="row pt-2">
+                <div class="cart-content">
+                  <img src="./assets/products/drawer.png" class="img-fluid" alt="">
+                </div>
+                <div class="">
+                  <h6 class="font-size-13 py-1"><b>Wood Drawer</b></span></h6>
+                  <h6 class="font-size-13 change-color">Brand: <span class="text-dark">Home Source</span></h6>
+                  <h1 class="font-size-13 color-secondary pb-0 mb-0">₱<span>4,000.00</span></h1>
+                  <del class="font-size-13 change-color pt-0 mt-0">₱<span>5,000.00</span></del>
+                  <h6 class="font-size-12 change-color pt-2">Quantity:
+                    <button class="qty-up border"><i class="fas fa-minus"></i></button>
+                      <input type="text" class="border px-2 w-25" value="1" placeholder="1">
+                    <button class="qty-down border"><i class="fas fa-plus"></i></button>
+                  </h6>
+                </div>
+              </div>     
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-12 pb-3">
+                <input class="form-check-input" type="checkbox" value="">
+              <div class="row pt-2">
+                <div class="">
+                  <img src="./assets/products/chair.png" class="img-fluid" alt="">
+                </div>
+                <div class="">
+                  <h6 class="font-size-13 py-1"><b>Chair</b></h6>
+                  <h6 class="font-size-13 change-color">Brand: <span class="text-dark">Home Source</span></h6>
+                  <h1 class="font-size-13 color-secondary pb-0 mb-0">₱<span>4,500.00</span></h1>
+                  <del class="font-size-13 change-color pt-0 mt-0">₱<span>5,500.00</span></del>
+                  <h6 class="font-size-12 change-color pt-2">Quantity:
+                  <button class="qty-up border"><i class="fas fa-minus"></i></button>
+                    <input type="text" class="border px-2 w-25" value="1" placeholder="1">
+                  <button class="qty-down border"><i class="fas fa-plus"></i></button>
+                  </h6>
+                </div>
+              </div>     
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-12 pb-3">
+              <div class="row pt-2">
+                <div class="py-3 pl-3 color-forth-bg w-75 amount-price">
+                  <h6 class="font-size-18"><b>Amount Price</b></h6>
+                  <h6 class="font-size-13 pt-3">Sub-Total</h6>
+                  <h1 class="font-size-13 color-secondary">₱<span>20,000.00</span></h1>
+                  <hr>
+                  <h6 class="font-size-16 pt-3"><b>Total Amount</b></h6>
+                  <h1 class="font-size-16 text-danger">₱<span>20,000.00</span></h1>
+                </div>
+              </div>     
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CART END -->
+
+      <!-- PRODUCTS START -->
+      <!-- <section class="product pt-4">
+        <div class="container color-third-bg pb-5">
+            <div class="row py-3 font-lato text-dark">
+              
+                <div class="col-xl-4 col-lg-4 col-md-4 pb-3">
+                  <div class="pt-2">
+                      <img src="./assets/products/drawer.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                  <div class="pt-2">
+                      <h6 class="font-size-20">Nara Wood Drawer</h6>
+                      <div class="row pl-3">
+                        <div class="rating text-warning font-size-13">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                        </div>
+                        <div class="font-size-13 pl-1">
+                          <a href="#">1 Ratings</a>
+                        </div>
+                        <span class="border-right pl-1"></span>
+                        <div class="font-size-13 pl-1">
+                          <a href="#">2 Answered Questions</a>
+                        </div>
+                      </div>
+                      <div class="pt-2 font-size-13">
+                        <div class="row pl-3">
+                          <div class="">
+                            <h6 class="font-size-13 change-color brand-padding">Brand:</h6>
+                          </div>
+                          <div class="pl-1">
+                            <a href="#" class="font-size-13">Home Source</a>
+                          </div>
+                          <span class="border-right pl-1"></span>
+                          <div class="pl-1">
+                            <a href="#" class="font-size-13">More Products for this Brand</a>
+                          </div>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="pt-2">
+                        <h1 class="font-size-30 color-secondary">₱10,000.00</h1>
+                        <del class="font-size-18 change-color">₱15,000.00</del>
+                      </div>
+                      <div class="pt-5 font-size-13">
+                        <h6 class="font-size-16 change-color">Quantity:
+                          <button class="qty-up border"><i class="fas fa-minus"></i></button>
+                          <input type="text" class="border px-2 w-25" value="1" placeholder="1">
+                          <button class="qty-down border"><i class="fas fa-plus"></i></button>
+                        </h6>
+                      </div>
+                      <div class="pt-5 font-size-13">
+                        <div class="d-flex">
+                          <button class="btn color-primary-bg text-white w-50 buy-now">Buy Now</button>&nbsp;&nbsp;
+                          <button class="btn color-secondary-bg text-white w-50 add-to-cart">Add to Cart</button>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 delivery-options">
+                  <div class="pt-2">
+                    <h6 class="change-color"><i class="fas fa-truck fa-2x"></i> Delivery Options <i class="fas fa-info-circle float-right"></i></h6>
+                    <div class="pt-4">
+                      <h6 class="font-size-14"><i class="fas fa-map-marked-alt"></i> Manila, Metro Manila
+                        <a href="#" class="float-right font-size-13">CHANGE</a>
+                      </h6>
+                    </div>
+                    <div class="pt-4">
+                      <h6 class="font-size-14"><i class="fas fa-shipping-fast"></i> Standard Delivery
+                        <p href="#" class="float-right font-size-13"><b>₱10,000.00</b></p>
+                          <h6 class="font-size-13 ml-3 change-color">5 - 7 days</h6>
+                      </h6>
+                    </div>
+                    <div class="pt-4">
+                      <h6 class="font-size-14"><i class="fas fa-money-bill-wave"></i> Cash on Delivery Available</h6>
+                    </div>
+                    <hr>
+                    <div class="pt-2">
+                      <h6 class="change-color">Return & Warranty <i class="fas fa-info-circle float-right"></i></h6>
+                      <div class="pt-2">
+                        <h6 class="font-size-14"><i class="fas fa-undo"></i> 7 days return to seller
+                            <h6 class="font-size-13 ml-3 change-color">Change of mine is not applicable</h6>
+                        </h6>
+                      </div>
+                      <div class="pt-2">
+                        <h6 class="font-size-14"><i class="fas fa-shield-alt"></i> Warranty not applicable</h6>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="container color-forth-bg">
+                      <div class="row py-3">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-6">
+                          <h6 class="font-size-13 change-color">Sold by:</h6>
+                          <h6 class="font-size-16">Shopbox PH</h6>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-6">
+                          <a href="#" class="font-size-16 float-right"><i class="fas fa-comments"></i> Chat Now</a>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-12 col-12 border-top border-right pt-2">
+                          <h6 class="font-size-13 change-color">Positive Seller Ratings
+                            <h6 class="font-size-30">100%</h6>
+                          </h6>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-12 col-12 border-top border-right pt-2">
+                          <h6 class="font-size-13 change-color">Ship on Time
+                            <h6 class="font-size-30 pt-3">100%</h6>
+                          </h6>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-12 col-12 border-top pt-2">
+                          <h6 class="font-size-13 change-color">Chat Response Rate
+                            <h6 class="font-size-30">100%</h6>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </section> -->
+      <!-- PRODUCTS END -->
+
+      <!-- PRODUCT DETAILS START -->
+      <!-- <section class="product-complete-details pt-3">
+        <div class="container color-third-bg font-lato">
+          <div class="row pt-3 pb-4">
+            <div class="col-lg-6 col-12">
+              <div class="color-forth-bg pt-3 pb-2">
+                <h6 class="mx-4 font-size-18">Product details of Wood Drawer</h6>
+              </div>
+              <div class="pt-4">
+                <ul class="font-size-14">
+                  <li>Can also be used as a nightstand.</li>
+                  <li>Real wood veneer will make this chest of drawers age gracefully.</li>
+                  <li>Smooth running drawers with pull-out stop.</li>
+                </ul>
+              </div>      
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="color-forth-bg pt-3 pb-2">
+                <h6 class="mx-4 font-size-18">Specifications of Wood Drawer</h6>
+              </div>
+              <div class="row">
+                <div class="col-lg-6 col-12 pt-3">
+                  <div class="ml-4">
+                    <h6 class="font-size-14 change-color">Brand</h6>
+                    <h6 class="font-size-14">Home Source</h6>
+                  </div>
+                  <div class="pt-3 ml-4">
+                    <h6 class="font-size-14 change-color">Code</h6>
+                    <h6 class="font-size-14">123456789</h6>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-12 pt-3">
+                  <div class="ml-4">
+                    <h6 class="font-size-14 change-color">Material</h6>
+                    <h6 class="font-size-14">Wood</h6>
+                  </div>
+                  <div class="pt-3 ml-4">
+                    <h6 class="font-size-14 change-color">Model</h6>
+                    <h6 class="font-size-14">Wood Drawer 5</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- PRODUCT DETAILS END -->
+
+      <!-- RATINGS AND REVIEW START -->
+      <!-- <section class="ratings-review pt-3">
+        <div class="container color-third-bg font-lato">
+          <div class="row pt-3 pb-4">
+            <div class="col-lg-12 col-12">
+              <div class="color-forth-bg pt-3 pb-2">
+                <h6 class="mx-2 font-size-18">Ratings & Reviews of Wood Drawer 5</h6>
+              </div>
+              <div class="pt-4">
+                <h6 class="font-size-20">Ratings</h6>
+                <div class="rating text-warning font-size-20">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                </div>
+                <div class="pt-2">
+                  <h6 class="font-size-12 change-color">5 Star Ratings</h6>
+                </div>
+              </div>
+              <hr>
+              <div class="pt-2">
+                <h6 class="font-size-20">Product Reviews</h6>
+              </div>
+              <hr>
+              <div class="pt-1">
+                <div class="rating text-warning font-size-13">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                </div>
+                <div class="pt-2">
+                  <h6 class="font-size-13 change-color">By: Orlan Castelo |
+                    <span class="text-success"><i class="fas fa-user-shield"></i> Verified Purchase</span>
+                  </h6>
+                  <p class="font-size-12">This product was really good. I will defenitely buy again.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- RATINGS AND REVIEW END -->
+
+      <!-- All Products Start -->
+      <section class="all-products">
+        <div class="container bg-white pb-3">
+          <fieldset class="px-4 border shadow">
+              <legend class="color-primary-bg text-white py-2 px-3 font-size-16 font-anton" style="width: auto;">Shop More</legend>
+              <div class="row pt-4 font-lato">
+                  
+                  <div class="col-xl-2 col-lg-2 col-md-3 mb-4 product-content">
+                    <img src="assets/products/humidifier.png" class="img-fluid mx-auto d-block" alt="">
+                    <div class="text-center mb-4">
+                      <h6>Product Name</h6>
+                      <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                      </div>
+                      <div class="price py-2">
+                        <span>₱<span>3,000.00</span></span>
+                      </div>
+                      <del class="text-danger">₱<span>4,000.00</span></del>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-3 mb-4 product-content">
+                    <img src="assets/products/tv-table.png" class="img-fluid mx-auto d-block" alt="">
+                    <div class="text-center mb-4">
+                      <h6>Product Name</h6>
+                      <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                      </div>
+                      <div class="price py-2">
+                        <span>₱<span>15,000.00</span></span>
+                      </div>
+                      <del class="text-danger">₱<span>20,000.00</span></del>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-3 mb-4 product-content">
+                    <img src="assets/products/window.png" class="img-fluid mx-auto d-block" alt="">
+                    <div class="text-center mb-4">
+                      <h6>Product Name</h6>
+                      <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                      </div>
+                      <div class="price py-2">
+                        <span>₱<span>5,000.00</span></span>
+                      </div>
+                      <del class="text-danger">₱<span>7,000.00</span></del>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-3 mb-4 product-content">
+                    <img src="assets/products/tv.png" class="img-fluid mx-auto d-block" alt="">
+                    <div class="text-center mb-4">
+                      <h6>Product Name</h6>
+                      <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                      </div>
+                      <div class="price py-2">
+                        <span>₱<span>70,000.00</span></span>
+                      </div>
+                      <del class="text-danger">₱<span>75,000.00</span></del>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-3 mb-4 product-content">
+                    <img src="assets/products/mirror.png" class="img-fluid mx-auto d-block" alt="">
+                    <div class="text-center mb-4">
+                      <h6>Product Name</h6>
+                      <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                      </div>
+                      <div class="price py-2">
+                        <span>₱<span>2,500.00</span></span>
+                      </div>
+                      <del class="text-danger">₱<span>3,000.00</span></del>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-3 mb-4 product-content">
+                    <img src="assets/products/table-chair.png" class="img-fluid mx-auto d-block" alt="">
+                    <div class="text-center mb-4">
+                      <h6>Product Name</h6>
+                      <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                      </div>
+                      <div class="price py-2">
+                        <span>₱<span>10,000.00</span></span>
+                      </div>
+                      <del class="text-danger">₱<span>11,000.00</span></del>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-3 mb-4 product-content">
+                    <img src="assets/products/speaker.png" class="img-fluid mx-auto d-block" alt="">
+                    <div class="text-center mb-4">
+                      <h6>Product Name</h6>
+                      <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                      </div>
+                      <div class="price py-2">
+                        <span>₱<span>4,500.00</span></span>
+                      </div>
+                      <del class="text-danger">₱<span>5,000.00</span></del>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-3 mb-4 product-content">
+                    <img src="assets/products/lampshade.png" class="img-fluid mx-auto d-block" alt="">
+                    <div class="text-center mb-4">
+                      <h6>Product Name</h6>
+                      <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                      </div>
+                      <div class="price py-2">
+                        <span>₱<span>4,000.00</span></span>
+                      </div>
+                      <del class="text-danger">₱<span>5,000.00</span></del>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-3 mb-4 product-content">
+                    <img src="assets/products/cabinet.png" class="img-fluid mx-auto d-block" alt="">
+                    <div class="text-center mb-4">
+                      <h6>Product Name</h6>
+                      <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                      </div>
+                      <div class="price py-2">
+                        <span>₱<span>12,000.00</span></span>
+                      </div>
+                      <del class="text-danger">₱<span>14,000.00</span></del>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-3 mb-4 product-content">
+                    <img src="assets/products/door.png" class="img-fluid mx-auto d-block" alt="">
+                    <div class="text-center mb-4">
+                      <h6>Product Name</h6>
+                      <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                      </div>
+                      <div class="price py-2">
+                        <span>₱<span>6,000.00</span></span>
+                      </div>
+                      <del class="text-danger">₱<span>7,000.00</span></del>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-3 mb-4 product-content">
+                    <img src="assets/products/chair.png" class="img-fluid mx-auto d-block" alt="">
+                    <div class="text-center mb-4">
+                      <h6>Product Name</h6>
+                      <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                      </div>
+                      <div class="price py-2">
+                        <span>₱<span>4,500.00</span></span>
+                      </div>
+                      <del class="text-danger">₱<span>5,500.00</span></del>
+                    </div>
+                  </div>
+                  <div class="col-xl-2 col-lg-2 col-md-3 mb-4 product-content">
+                    <img src="assets/products/drawer.png" class="img-fluid mx-auto d-block" alt="">
+                    <div class="text-center mb-4">
+                      <h6>Product Name</h6>
+                      <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                      </div>
+                      <div class="price py-2">
+                        <span>₱<span>25,000.00</span></span>
+                      </div>
+                      <del class="text-danger">₱<span>30,000.00</span></del>
+                  </div>
+              </div>
+          </fieldset>
+        </div>
+      </section>
+      <!-- All Products End -->
+
+      <!-- ADS START -->
+      <section class="ads">
+        <div class="container py-5">
+          <div class="pl-2 pb-3">
+            <button class="btn color-primary-bg text-white font-lato">Place Ads Here</button>
+          </div>
+          <div class="site-slider-ads px-4">
+            <div class="row slider-ads color-third-bg">
+              <div class="col-md-2 ads py-4">
+                <div class="pb-3">
+                  <img src="./assets/ads/ads-1.jpg" class="img-fluid" alt="Product 5">
+                </div>
+              </div>
+              <div class="col-md-2 ads py-4">
+                <div class="pb-3">
+                  <img src="./assets/ads/ads-2.jpg" class="img-fluid" alt="Product 5">
+                </div>
+              </div>
+              <div class="col-md-2 ads py-4">
+                <div class="pb-3">
+                  <img src="./assets/ads/ads-3.jpg" class="img-fluid" alt="Product 5">
+                </div>
+              </div>
+              <div class="col-md-2 ads py-4">
+                <div class="pb-3">
+                  <img src="./assets/ads/ads-4.jpg" class="img-fluid" alt="Product 5">
+                </div>
+              </div>
+              <div class="col-md-2 ads py-4">
+                <div class="pb-3">
+                  <img src="./assets/ads/ads-1.jpg" class="img-fluid" alt="Product 5">
+                </div>
+              </div>
+              <div class="col-md-2 ads py-4">
+                <div class="pb-3">
+                  <img src="./assets/ads/ads-2.jpg" class="img-fluid" alt="Product 5">
+                </div>
+              </div>
+            </div>
+            <div class="slider-btn-ads">
+              <span class="prev position-top"><i class="fas fa-chevron-left fa-2x text-secondary"></i></span>
+              <span class="next position-top right-0"><i class="fas fa-chevron-right fa-2x text-secondary"></i></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ADS END -->
+
+      <!-- OTHERS START -->
+      <section class="others">
+        <div class="container color-primary-bg">
+            <div class="row py-3 font-roboto text-white">
+                <!--Grid column-->
+                <div class="col-xl-4 col-lg-4 col-md-4 others-content pb-3">
+                  <div class="">
+                      <h6 class=""><i class="fas fa-shipping-fast fa-2x"></i> Shipping & Ruturn</h6>
+                      <div class="pt-3">
+                        <h6 class="font-size-12">Free Shipping for Minimum of ₱500.00</h6>
+                        <h6 class="font-size-12">Ruturn the Item within 7 days</h6>
+                      </div>
+                      <div class="">
+                        <h6 class="font-size-12">Delivery:</h6>
+                        <ul class="font-size-12">
+                          <li>Luzon</li>
+                          <li>Visayas</li>
+                          <li>Mindanao</li>
+                        </ul>
+                      </div>
+                      <div class="pt-2">
+                        <h6 class="font-size-16"><i class="fas fa-headset"></i> 24/7 Customer Service</h6>
+                        <h6 class="font-size-12"><i class="fas fa-phone"></i> Landline: (02) 8123-4567</h6>
+                        <h6 class="font-size-12"><i class="fas fa-mobile-alt"></i> Mobile: 0999-123-4567 Globe</h6>
+                        <h6 class="font-size-12"><i class="fas fa-mobile-alt"></i> Mobile: 0988-765-4321 Smart</h6>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 others-content">
+                  <div class="">
+                      <h6 class=""><i class="fas fa-box fa-2x"></i> Shopbox PH</h6>
+                      <div class="pt-3">
+                        <a href="#" class="font-size-12"><i class="fas fa-store"></i> About Store</a><br>
+                        <a href="#" class="font-size-12"><i class="fas fa-envelope"></i> Send Us a message</a><br>
+                      </div>
+                      <div class="pt-4">
+                        <h6 class="font-size-12"><i class="fas fa-map-marked-alt"></i> Store Location:</h6>
+                        <ul class="font-size-12">
+                          <li>Luzon</li>
+                          <h6 class="font-size-12">- Metro Manila</h6>
+                          <li>Visayas</li>
+                          <h6 class="font-size-12">- Cebu</h6>
+                          <li>Mindanao</li>
+                          <h6 class="font-size-12">- Davao</h6>
+                        </ul>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 others-content">
+                  <div class="">
+                    <h6 class=""><i class="fas fa-shopping-cart fa-2x"></i> Payment Methods</h6>
+                    <div class="pt-3">
+                      <img src="./assets/others/visa-card.png" class="img-fluid" alt="Visa Card">
+                      <img src="./assets/others/master-card.png" class="img-fluid" alt="Master Card">
+                      <img src="./assets/others/jcb-card.png" class="img-fluid" alt="JCB Card">
+                    </div>
+                    <div class="pt-2">
+                      <img src="./assets/others/gcash.png" class="img-fluid gcash" alt="G-Cash Card">
+                      <img src="./assets/others/paymaya.png" class="img-fluid" alt="PayMaya Card">
+                      <img src="./assets/others/paypal.png" class="img-fluid" alt="PayPal">
+                    </div>
+                    <div class="pt-4">
+                      <h6 class="font-size-20"><i class="fas fa-truck fa-2x"></i> Cash On Delivery!!!</h6>
+                    </div>
+                    <div class="pt-4 store-social">
+                      <h6 class="font-size-16">Like Us on:
+                        <i class="fab fa-facebook fa-lg"></i>&nbsp;&nbsp;
+                        <i class="fab fa-instagram fa-lg">&nbsp;&nbsp;</i>
+                        <i class="fab fa-youtube fa-lg">&nbsp;&nbsp;</i>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+            </div>        
+        </div>
+      </section>
+      <!-- OTHERS END -->
+
+    </main>
+
+    <!-- Footer Start -->
+    <footer id="footer" class="color-primary-bg text-white pt-4 footer-icons">
+      <div class="container">
+          <div class="row justify-content-center mb-4">
+              <div class="text-center">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook fa-lg text-white mx-2"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-lg text-white mx-2"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github fa-lg text-white mx-2"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-lg text-white mx-2"></i></a>
+              </div>
+          </div>
+      </div>
+      <div class="copyright text-center bg-dark text-white pb-1 pt-3">
+          <p class="font-lato">&copy; Copyright 2020, Designed and Created By: <a href="#" class="color-primary my-name">Orlan Castelo</a></p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- BOOTSTRAP JS CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- SLICK SLIDER JS -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="./js/main.js"></script>
+</body>
+</html>

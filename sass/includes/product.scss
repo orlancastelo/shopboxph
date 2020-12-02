@@ -1,0 +1,42 @@
+.product .container {
+    border-radius: 5px;
+}
+
+.product-content-desc img {
+    width: 250px;
+}
+
+.product .brand-padding {
+    padding-top: 0.1rem;
+}
+
+.change-color {
+    color: #A9A9A9;
+}
+
+.product .qty-up {
+    color: #A9A9A9;
+}
+
+.product .qty-down {
+    color: #A9A9A9;
+}
+
+.product .buy-now:hover {
+    background-color: #3cb19f;
+}
+
+.product .add-to-cart:hover {
+    background-color: #e94002;
+}
+
+.product .delivery-options .fas {
+    color: #A9A9A9;
+}
+.product .delivery-options .change-color {
+    color: #A9A9A9;
+}
+
+.product-complete-details .change-color {
+    color: #A9A9A9;
+}
